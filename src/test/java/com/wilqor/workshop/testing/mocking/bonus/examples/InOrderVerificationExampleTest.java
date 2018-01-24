@@ -5,12 +5,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InOrder;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.mockito.Mockito.inOrder;
 
 /**
+ * Demonstrates usage of {@link InOrder} utility, allowing to make
+ * sure that invocations of different objects and methods
+ * happened in expected order.
+ *
  * @author wilqor
  */
 @RunWith(MockitoJUnitRunner.class)
