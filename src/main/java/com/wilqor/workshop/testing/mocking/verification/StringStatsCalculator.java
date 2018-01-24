@@ -15,6 +15,12 @@ public class StringStatsCalculator {
         this.stringStatsCalculationListener = stringStatsCalculationListener;
     }
 
+    /**
+     * Calculate strings from subsequent strings, passing results of
+     * calculations to injected listeners.
+     *
+     * @param strings strings to calculate stats from
+     */
     public void calculate(List<String> strings) {
         int shortestLength = 0;
         int longestLength = 0;
