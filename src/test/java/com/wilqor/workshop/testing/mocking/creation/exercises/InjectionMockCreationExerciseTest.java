@@ -4,12 +4,12 @@ import com.wilqor.workshop.testing.mocking.Comment;
 import com.wilqor.workshop.testing.mocking.CommentLengthRecorder;
 import com.wilqor.workshop.testing.mocking.CommentPersistence;
 import com.wilqor.workshop.testing.mocking.CommentsService;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Exercise objective: Fix the test, but set up dependencies
- * of {@link CommentsService} using an annotation that injects mocks.
+ * Exercise objective: Fix the test, setting up dependencies
+ * of {@link CommentsService} with an annotation that injects mocks,
+ * instead of manually setting it up.
  *
  * @author wilqor
  */
@@ -18,11 +18,6 @@ public class InjectionMockCreationExerciseTest {
     private CommentPersistence commentPersistence;
 
     private CommentsService sut;
-
-    @Before
-    public void setUp() throws Exception {
-        sut = new CommentsService(commentLengthRecorder, commentPersistence);
-    }
 
     @Test
     public void testSaveComment() throws Exception {
