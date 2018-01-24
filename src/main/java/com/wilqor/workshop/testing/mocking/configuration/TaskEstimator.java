@@ -15,7 +15,7 @@ public final class TaskEstimator {
      * @param tasksStream tasks stream to estimate
      * @return estimated effort
      */
-    public Effort esitmateEffort(TasksStream tasksStream) {
+    public Effort estimateEffort(TasksStream tasksStream) {
         final int totalEstimate = getTotalEstimate(tasksStream);
         return Stream.of(Effort.values())
                 .filter(effort -> totalEstimate >= effort.getEffortLowerBoundInclusive() && totalEstimate < effort.getEffortUpperBoundExclusive())

@@ -6,7 +6,7 @@ import com.wilqor.workshop.testing.mocking.configuration.TasksStream;
  * Exercise objective: test {@link com.wilqor.workshop.testing.mocking.configuration.TaskEstimator} using
  * Mockito.when...thenReturn...thenReturn chaining.
  * You will need to create a mock of {@link com.wilqor.workshop.testing.mocking.configuration.TasksStream}
- * to reuse across test cases and pass as argument to {@link com.wilqor.workshop.testing.mocking.configuration.TaskEstimator#esitmateEffort(TasksStream)}
+ * to reuse across test cases and pass as argument to {@link com.wilqor.workshop.testing.mocking.configuration.TaskEstimator#estimateEffort(TasksStream)}
  * as well as create the instance of system under test.
  * Think of possible test cases to check:
  * - empty stream of tasks
