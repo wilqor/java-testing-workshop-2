@@ -1,4 +1,4 @@
-package com.wilqor.workshop.testing.mocking;
+package com.wilqor.workshop.testing.mocking.creation;
 
 /**
  * Dependency of {@link CommentsService}, needed for saving comments in persistence.

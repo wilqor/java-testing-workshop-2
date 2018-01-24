@@ -1,4 +1,4 @@
-package com.wilqor.workshop.testing.mocking;
+package com.wilqor.workshop.testing.mocking.creation;
 
 import java.util.Objects;
 

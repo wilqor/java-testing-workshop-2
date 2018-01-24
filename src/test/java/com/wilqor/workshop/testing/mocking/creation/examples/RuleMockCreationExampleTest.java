@@ -1,9 +1,9 @@
 package com.wilqor.workshop.testing.mocking.creation.examples;
 
-import com.wilqor.workshop.testing.mocking.Comment;
-import com.wilqor.workshop.testing.mocking.CommentLengthRecorder;
-import com.wilqor.workshop.testing.mocking.CommentPersistence;
-import com.wilqor.workshop.testing.mocking.CommentsService;
+import com.wilqor.workshop.testing.mocking.creation.Comment;
+import com.wilqor.workshop.testing.mocking.creation.CommentLengthRecorder;
+import com.wilqor.workshop.testing.mocking.creation.CommentPersistence;
+import com.wilqor.workshop.testing.mocking.creation.CommentsService;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.wilqor.workshop.testing.mocking;
+package com.wilqor.workshop.testing.mocking.creation;
 
 /**
  * Service providing methods for storing comments, used as an
