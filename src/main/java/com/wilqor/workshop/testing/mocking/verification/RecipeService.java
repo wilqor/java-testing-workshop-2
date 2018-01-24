@@ -1,7 +1,5 @@
 package com.wilqor.workshop.testing.mocking.verification;
 
-import com.sun.istack.internal.Nullable;
-
 /**
  * Service providing information about recipes.
  *
@@ -14,6 +12,5 @@ public interface RecipeService {
      * @param recipeId id of recipe to find
      * @return recipe details if found or else null
      */
-    @Nullable
     RecipeDetails findRecipe(long recipeId);
 }

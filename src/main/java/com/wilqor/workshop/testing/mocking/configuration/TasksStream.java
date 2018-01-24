@@ -1,6 +1,5 @@
 package com.wilqor.workshop.testing.mocking.configuration;
 
-import com.sun.istack.internal.Nullable;
 
 /**
  * Interface representing streams of tasks for estimation.
@@ -13,6 +12,5 @@ public interface TasksStream {
      *
      * @return next task or null if there are no more tasks
      */
-    @Nullable
     Task getNextTask();
 }
