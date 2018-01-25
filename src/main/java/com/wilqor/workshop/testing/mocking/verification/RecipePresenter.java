@@ -23,7 +23,7 @@ public class RecipePresenter {
      *
      * @param recipeId id of recipe to search for
      */
-    void updateRecipeDetails(long recipeId) {
+    public void updateRecipeDetails(long recipeId) {
         recipeView.clearIngredientsPanel();
         Optional<RecipeDetails> recipeDetailsOptional = Optional.ofNullable(recipeService.findRecipe(recipeId));
         updateRecipeName(recipeDetailsOptional);
